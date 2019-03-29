@@ -1,4 +1,24 @@
-<h1>Welcome to {{bioData.name}}'s bio page!</h1>
-<img src="/images/{{bioData.avatar}}" alt="bio image">
-<h3>About {{bioData.name}}</h3>
-<p>{{bioData.bio}}</p>
+<div id="selected-song">
+    <div class="container">
+        <a href="/">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+            <span>Go back</span>
+        </a>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="/images/{{bioData.art}}" alt="bio image">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1>{{bioData.title}}</h1>
+                <h3>{{bioData.artist}}</h3>
+                <audio controls>
+                    <source src="/audio/{{bioData.audio}}" type="audio/mp3" alt="song">
+                </audio>
+                <p><b>Release date: </b>{{bioData.date}}</p>
+                <p><b>Genre: </b>{{bioData.genre}}</p>
+                <p><b>Album: </b>{{bioData.album}}</p>
+                <p><b>What I'm Saying: </b>{{bioData.info}}</p>             
+            </div>
+        </div>
+    </div>
+</div>

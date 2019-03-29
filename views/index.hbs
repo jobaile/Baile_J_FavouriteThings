@@ -1,12 +1,15 @@
-<section id="heroes">
-    {{#each avatars}}
-    <div class="hero-container">
-        <a href="/{{name}}">
-            <img src="/images/{{avatar}}" alt="avatar">
-        </a>
+<section class="container-fluid" id="top-songs">
+    <h2 id="select-text">Select a song to learn more</h2>
+    <div class="row">
+    {{!-- each artwork --}}
+    {{#each arts}}
 
-        <h3 class="hero-name">{{name}}</h3>
+    <div class="song-container">
+        <a href="/{{title}}">
+            <img src="/images/{{art}}" alt="art">
+        </a>    
     </div>
-
+    
     {{/each}}
+    </div>
 </section>

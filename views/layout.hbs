@@ -2,25 +2,30 @@
 <html>
   <head>
     <title>{{title}}</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    
     <link rel='stylesheet' href='/stylesheets/main.css' />
   </head>
   <body>
+    
     <header>
       <nav>
-        <h1>Marvel Who's Who - A Primer</h1>
-        <a href="/">
-          <i class="fas fa-home"></i>
-        </a>
+        <div class="header-content">
+          <h1 class="header-text">Favourite Songs Today</h1>
+        </div>
       </nav>
-    </header>    
+    </header>
+
     <main>
       {{{body}}}
     </main>
-    <img class="marvel-logo" src="/images/marvelstudios.jpg" alt="logo">
+
     <footer>
-      <p>All characters and bio information &copy; Marvel Studios. Used totally without permission... don't tell anyone!</p>
+      <p>Some songs that I can't get out of my head</p>
+      <a href="https://open.spotify.com/user/jayaudrie?si=UD32_YVtTWS4dxClDiAx1w">
+        <i class="fab fa-spotify"></i>
+      </a>
     </footer>
   </body>
 </html>
