@@ -10,7 +10,7 @@ I decided to just compile a list of my favourite songs of the week. AKA, I can't
 2. Install dependencies inside the folder:
 `$ npm install`
 
-3. Insert db_fip (provided inside database folder) onto your PHPMyAdmin
+3. Insert db_favouritethings (provided inside data folder) onto your PHPMyAdmin
 
 4. Run npm:
 `$ npm start`
