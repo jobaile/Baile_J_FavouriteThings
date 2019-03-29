@@ -26,7 +26,7 @@ router.get('/:artist', function(req, res, next) {
       console.log(err);
     }else{
       console.log(result);
-      res.render('bio', { bioData: result[0] });
+      res.render('info', { infoData: result[0] });
     }
   });
 });
