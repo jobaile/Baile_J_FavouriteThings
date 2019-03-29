@@ -1,0 +1,24 @@
+<div id="selected-song">
+    <div class="container">
+        <a href="/">
+            <i class="fas fa-arrow-alt-circle-left"></i>
+            <span>Go back</span>
+        </a>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="/images/{{infoData.art}}" alt="bio image">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h1>{{infoData.title}}</h1>
+                <h3>{{infoData.artist}}</h3>
+                <audio controls>
+                    <source src="/audio/{{infoData.audio}}" type="audio/mp3" alt="song">
+                </audio>
+                <p><b>Release date: </b>{{infoData.date}}</p>
+                <p><b>Genre: </b>{{infoData.genre}}</p>
+                <p><b>Album: </b>{{infoData.album}}</p>
+                <p><b>What I'm Saying: </b>{{infoData.info}}</p>             
+            </div>
+        </div>
+    </div>
+</div>
