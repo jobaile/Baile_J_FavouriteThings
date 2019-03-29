@@ -1,5 +1,14 @@
-@import '_vars';
-@import 'modules/_home';
-@import 'modules/_bio';
+//sass --watch sass/main.scss:public/stylesheets/main.css --style compressed
 
-a { text-decoration: none; color: white; text-transform: uppercase; }
+@import '_vars';
+
+@import 'modules/_home';
+@import 'modules/_info';
+@import 'modules/_footer';
+@import 'modules/_header';
+
+body {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+}

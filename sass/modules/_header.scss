@@ -1,0 +1,27 @@
+header {
+    background: url('https://images.pexels.com/photos/1626481/pexels-photo-1626481.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.header-content {
+    font-size: 4rem;
+    line-height: 1.4em;
+    color: $white;
+    opacity: 1;
+    display: block;
+    z-index: 1;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.header-text {
+    font-size: 1em;
+    font-family: 'Lato';
+    font-weight: 700;
+    background: rgba($black, .85);
+    padding: .08em 1rem;
+    box-decoration-break: clone;
+}
