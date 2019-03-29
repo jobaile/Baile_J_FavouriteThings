@@ -3,7 +3,7 @@ const config = {
     password: "root",
     host: "localhost",
     port: "8889",
-    database: "marvelcharacters"
+    database: "db_favouritethings"
 }
 
 module.exports = config;
